@@ -249,8 +249,10 @@
   {
    "name": "GE Vernova",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://www.gevernova.com/careers"
+   "type": "workday",
+   "tenant": "gevernova",
+   "wd": "5",
+   "site": "Vernova_ExternalSite"
   },
   {
    "name": "Siemens Energy",
@@ -333,8 +335,10 @@
   {
    "name": "Samsung Electronics",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://www.samsung.com/us/careers/"
+   "type": "workday",
+   "tenant": "sec",
+   "wd": "3",
+   "site": "Samsung_Careers"
   },
   {
    "name": "LG Electronics",
@@ -369,8 +373,10 @@
   {
    "name": "Micron",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://careers.micron.com"
+   "type": "workday",
+   "tenant": "micron",
+   "wd": "1",
+   "site": "External"
   },
   {
    "name": "Texas Instruments",
@@ -405,8 +411,10 @@
   {
    "name": "Nike",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://jobs.nike.com"
+   "type": "workday",
+   "tenant": "nike",
+   "wd": "1",
+   "site": "nke2"
   },
   {
    "name": "Adidas",
@@ -441,14 +449,18 @@
   {
    "name": "Fast Retailing (Uniqlo)",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://www.fastretailing.com/employment/en/"
+   "type": "workday",
+   "tenant": "fastretailing",
+   "wd": "3",
+   "site": "graduates_eu_Uniqlo"
   },
   {
    "name": "VF Corporation",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://www.vfc.com/careers"
+   "type": "workday",
+   "tenant": "vfc",
+   "wd": "5",
+   "site": "vfc_careers"
   },
   {
    "name": "Levi Strauss & Co.",
@@ -471,8 +483,10 @@
   {
    "name": "Unilever",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://careers.unilever.com"
+   "type": "workday",
+   "tenant": "unilever",
+   "wd": "3",
+   "site": "Unilever_Experienced_Professionals"
   },
   {
    "name": "Procter & Gamble",
@@ -489,8 +503,10 @@
   {
    "name": "Coca-Cola",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://careers.coca-colacompany.com"
+   "type": "workday",
+   "tenant": "coke",
+   "wd": "1",
+   "site": "coca-cola-careers"
   },
   {
    "name": "PepsiCo",
@@ -519,8 +535,10 @@
   {
    "name": "Johnson & Johnson",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://www.careers.jnj.com"
+   "type": "workday",
+   "tenant": "jj",
+   "wd": "5",
+   "site": "JJ"
   },
   {
    "name": "Pfizer",
@@ -573,14 +591,18 @@
   {
    "name": "Boeing",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://jobs.boeing.com"
+   "type": "workday",
+   "tenant": "boeing",
+   "wd": "1",
+   "site": "EXTERNAL_CAREERS"
   },
   {
    "name": "Airbus",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://www.airbus.com/en/careers"
+   "type": "workday",
+   "tenant": "ag",
+   "wd": "3",
+   "site": "Airbus"
   },
   {
    "name": "Lockheed Martin",
@@ -639,8 +661,10 @@
   {
    "name": "Accenture",
    "region": "Global",
-   "type": "html_watch",
-   "url": "https://www.accenture.com/us-en/careers"
+   "type": "workday",
+   "tenant": "accenture",
+   "wd": "103",
+   "site": "AccentureCareers"
   },
   {
    "name": "McKinsey & Company",
