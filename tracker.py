@@ -87,13 +87,17 @@ def fetch_rss(src, cfg):
         out.append(dict(title=(it.find("title").text if it.find("title") else "").strip(), url=url.strip(), location=""))
     return out
 
+ROLE_WORDS = re.compile(r"(?<![a-z])(engineer|trainee|analyst|planner|manager|officer|executive|specialist|supervisor|"
+                        r"technician|coordinator|associate|intern|assistant|lead|head of|graduate|apprentice|scientist|"
+                        r"merchandiser|controller|consultant)", re.I)
+
 def fetch_html_watch(src, cfg):
     """Fallback for pages with no feed: pull link texts / headings that look like job titles."""
     soup = BeautifulSoup(get(src["url"]).text, "html.parser")
     out = []
     for tag in soup.find_all(["a", "h1", "h2", "h3", "h4", "li", "td", "span"]):
         text = " ".join(tag.get_text(" ", strip=True).split())
-        if 6 <= len(text) <= 120 and matches(text, cfg):
+        if 6 <= len(text) <= 100 and matches(text, cfg) and ROLE_WORDS.search(text):
             a = tag if tag.name == "a" else tag.find("a")
             href = a.get("href") if a else None
             url = requests.compat.urljoin(src["url"], href) if href else src["url"]
@@ -110,7 +114,7 @@ PATTERNS = [
     ("smartrecruiters", r"(?:careers|jobs)\.smartrecruiters\.com/([A-Za-z0-9_-]+)"),
     ("workday", r"https?://([a-z0-9-]+)\.wd(\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)"),
 ]
-def discover(cfg):
+def discover(cfg, apply=False):
     found = []
     for src in cfg["sources"]:
         if src["type"] != "html_watch": continue
@@ -123,8 +127,15 @@ def discover(cfg):
                 if typ == "workday": s.update(tenant=m.group(1), wd=m.group(2), site=m.group(3))
                 else: s["id"] = m.group(1)
                 found.append(s); print("  FOUND", json.dumps(s)); break
-    print("\nCopy the lines above into companies.json 'sources' (replace the html_watch entry)." if found
-          else "Nothing detected automatically.")
+    if found and apply:
+        by_name = {f["name"]: f for f in found}
+        cfg["sources"] = [by_name.get(x["name"], x) for x in cfg["sources"]]
+        CONFIG.write_text(json.dumps(cfg, indent=1))
+        print(f"\nApplied: {len(found)} companies now use real job feeds.")
+    elif found:
+        print("\nCopy the lines above into companies.json 'sources' (replace the html_watch entry).")
+    else:
+        print("Nothing detected automatically.")
 
 # ---------- state ----------
 def load_state():
@@ -143,8 +154,11 @@ def update_state(old, results):
                 jobs[k] = dict(company=src["name"], region=src.get("region", ""), title=it["title"], url=it["url"],
                                location=it.get("location", ""), first_seen=t, last_seen=t)
                 new.append(jobs[k])
+    ok_names = {src["name"] for src, _ in results}
     cutoff = now() - timedelta(days=DROP_DAYS)
-    jobs = {k: v for k, v in jobs.items() if datetime.fromisoformat(v["last_seen"]) >= cutoff}
+    # keep a job if its source failed this run (can't tell), else only if it was still listed this run
+    jobs = {k: v for k, v in jobs.items()
+            if (v["company"] not in ok_names and datetime.fromisoformat(v["last_seen"]) >= cutoff) or v["last_seen"] == t}
     return jobs, ([] if first_run else new)
 
 # ---------- outputs ----------
@@ -236,5 +250,5 @@ def run():
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "run"
     if cmd == "run": run()
-    elif cmd == "discover": discover(json.loads(CONFIG.read_text()))
+    elif cmd == "discover": discover(json.loads(CONFIG.read_text()), apply="--apply" in sys.argv)
     else: print(__doc__)
