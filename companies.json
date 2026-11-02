@@ -1,0 +1,1100 @@
+{
+ "keywords_include": [
+  "industrial engineer",
+  "production engineer",
+  "manufacturing engineer",
+  "process engineer",
+  "quality engineer",
+  "quality assurance",
+  "supply chain",
+  "logistics",
+  "planning",
+  "lean",
+  "six sigma",
+  "continuous improvement",
+  "operations",
+  "management trainee",
+  "graduate engineer",
+  "trainee engineer",
+  "maintenance engineer",
+  "industrial & production",
+  "work study",
+  "time study",
+  "merchandis",
+  "procurement",
+  "sourcing",
+  "production planner",
+  "production manager",
+  "production officer",
+  "operations research",
+  "ipe graduate"
+ ],
+ "keywords_exclude": [
+  "senior director",
+  "vice president",
+  "intern ",
+  "software engineer",
+  "sales",
+  "nurse",
+  "driver",
+  "chef",
+  "financial",
+  "tax",
+  "accountant",
+  "legal"
+ ],
+ "workday_search_terms": [
+  "industrial engineer",
+  "manufacturing engineer",
+  "supply chain",
+  "production",
+  "quality engineer"
+ ],
+ "delay_seconds": 1,
+ "sources": [
+  {
+   "name": "Tesla",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.tesla.com/careers"
+  },
+  {
+   "name": "Toyota",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://global.toyota/en/company/employment/"
+  },
+  {
+   "name": "Volkswagen Group",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.volkswagen-group.com/en/careers"
+  },
+  {
+   "name": "BMW Group",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.bmwgroup.jobs"
+  },
+  {
+   "name": "Mercedes-Benz Group",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://group.mercedes-benz.com/careers/"
+  },
+  {
+   "name": "Ford Motor",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://corporate.ford.com/careers.html"
+  },
+  {
+   "name": "General Motors",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://search-careers.gm.com"
+  },
+  {
+   "name": "Honda",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://global.honda/en/"
+  },
+  {
+   "name": "Hyundai Motor",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.hyundai.com"
+  },
+  {
+   "name": "Nissan",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.nissan-global.com"
+  },
+  {
+   "name": "Stellantis",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.stellantis.com/en/careers"
+  },
+  {
+   "name": "Renault Group",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.renaultgroup.com/en/careers/"
+  },
+  {
+   "name": "Tata Motors",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.tatamotors.com/careers/"
+  },
+  {
+   "name": "Mahindra",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.mahindra.com/careers"
+  },
+  {
+   "name": "BYD",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.byd.com/en"
+  },
+  {
+   "name": "Volvo Group",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.volvogroup.com/en/careers.html"
+  },
+  {
+   "name": "Bosch",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.bosch.com/careers/"
+  },
+  {
+   "name": "Continental",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.continental.com/en/career/"
+  },
+  {
+   "name": "Denso",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.denso.com/global/en/careers/"
+  },
+  {
+   "name": "Magna International",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.magna.com/careers"
+  },
+  {
+   "name": "ZF Friedrichshafen",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.zf.com/mobile/en/company/careers/careers.html"
+  },
+  {
+   "name": "Michelin",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.michelin.com/en/careers/"
+  },
+  {
+   "name": "Bridgestone",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.bridgestone.com/careers/"
+  },
+  {
+   "name": "Siemens",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.siemens.com"
+  },
+  {
+   "name": "ABB",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.abb"
+  },
+  {
+   "name": "Schneider Electric",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.se.com/ww/en/about-us/careers/"
+  },
+  {
+   "name": "Rockwell Automation",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.rockwellautomation.com/en-us/company/careers.html"
+  },
+  {
+   "name": "Emerson",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.emerson.com/en-us/careers"
+  },
+  {
+   "name": "Honeywell",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.honeywell.com"
+  },
+  {
+   "name": "GE Aerospace",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.geaerospace.com/careers"
+  },
+  {
+   "name": "GE Vernova",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.gevernova.com/careers"
+  },
+  {
+   "name": "Siemens Energy",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.siemens-energy.com/global/en/home/careers.html"
+  },
+  {
+   "name": "Vestas",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.vestas.com/en/careers"
+  },
+  {
+   "name": "Eaton",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.eaton.com/us/en-us/company/careers.html"
+  },
+  {
+   "name": "Cummins",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.cummins.com/careers"
+  },
+  {
+   "name": "Caterpillar",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.caterpillar.com/en/careers.html"
+  },
+  {
+   "name": "John Deere",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.deere.com/en/our-company/careers/"
+  },
+  {
+   "name": "3M",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.3m.com/3M/en_US/careers-us/"
+  },
+  {
+   "name": "KUKA",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.kuka.com/en-de/company/careers"
+  },
+  {
+   "name": "Hitachi",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.hitachi.com/en/careers/"
+  },
+  {
+   "name": "Panasonic",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.panasonic.com/global/corporate/careers.html"
+  },
+  {
+   "name": "Philips",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.careers.philips.com"
+  },
+  {
+   "name": "Whirlpool",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.whirlpool.com"
+  },
+  {
+   "name": "Apple",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.apple.com/careers/us/"
+  },
+  {
+   "name": "Samsung Electronics",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.samsung.com/us/careers/"
+  },
+  {
+   "name": "LG Electronics",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.lg.com/global/careers"
+  },
+  {
+   "name": "Sony",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.sony.com/en/SonyInfo/Careers/"
+  },
+  {
+   "name": "Foxconn (Hon Hai)",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.foxconn.com"
+  },
+  {
+   "name": "TSMC",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.tsmc.com"
+  },
+  {
+   "name": "Intel",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.intel.com"
+  },
+  {
+   "name": "Micron",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.micron.com"
+  },
+  {
+   "name": "Texas Instruments",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.ti.com"
+  },
+  {
+   "name": "Dell Technologies",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.dell.com"
+  },
+  {
+   "name": "HP Inc.",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.hp.com"
+  },
+  {
+   "name": "Lenovo",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.lenovo.com"
+  },
+  {
+   "name": "Huawei",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://career.huawei.com/reccampportal/portal5/index.html"
+  },
+  {
+   "name": "Nike",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.nike.com"
+  },
+  {
+   "name": "Adidas",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.adidas-group.com"
+  },
+  {
+   "name": "Puma",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://about.puma.com/en/careers"
+  },
+  {
+   "name": "Under Armour",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.underarmour.com"
+  },
+  {
+   "name": "H&M Group",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://career.hm.com"
+  },
+  {
+   "name": "Inditex (Zara)",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.inditexcareers.com"
+  },
+  {
+   "name": "Fast Retailing (Uniqlo)",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.fastretailing.com/employment/en/"
+  },
+  {
+   "name": "VF Corporation",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.vfc.com/careers"
+  },
+  {
+   "name": "Levi Strauss & Co.",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://levistrauss.com/careers/"
+  },
+  {
+   "name": "Decathlon",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.decathlon.com"
+  },
+  {
+   "name": "IKEA (Inter IKEA)",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.ikea.com/global/en/jobs/"
+  },
+  {
+   "name": "Unilever",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.unilever.com"
+  },
+  {
+   "name": "Procter & Gamble",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.pgcareers.com"
+  },
+  {
+   "name": "Nestl\u00e9",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.nestle.com/jobs"
+  },
+  {
+   "name": "Coca-Cola",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.coca-colacompany.com"
+  },
+  {
+   "name": "PepsiCo",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.pepsicojobs.com"
+  },
+  {
+   "name": "Colgate-Palmolive",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.colgatepalmolive.com/en-us/careers"
+  },
+  {
+   "name": "L'Or\u00e9al",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.loreal.com"
+  },
+  {
+   "name": "Tetra Pak",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.tetrapak.com/about/careers"
+  },
+  {
+   "name": "Johnson & Johnson",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.careers.jnj.com"
+  },
+  {
+   "name": "Pfizer",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.pfizer.com/about/careers"
+  },
+  {
+   "name": "Novartis",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.novartis.com/careers"
+  },
+  {
+   "name": "BASF",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.basf.com/global/en/careers.html"
+  },
+  {
+   "name": "Saint-Gobain",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.saint-gobain.com/en/careers"
+  },
+  {
+   "name": "Holcim",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.holcim.com/careers"
+  },
+  {
+   "name": "Tata Steel",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.tatasteel.com/careers/"
+  },
+  {
+   "name": "ArcelorMittal",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://corporate.arcelormittal.com/careers"
+  },
+  {
+   "name": "SLB (Schlumberger)",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.slb.com"
+  },
+  {
+   "name": "Boeing",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.boeing.com"
+  },
+  {
+   "name": "Airbus",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.airbus.com/en/careers"
+  },
+  {
+   "name": "Lockheed Martin",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.lockheedmartinjobs.com"
+  },
+  {
+   "name": "Rolls-Royce",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.rolls-royce.com"
+  },
+  {
+   "name": "Safran",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.safran-group.com/jobs"
+  },
+  {
+   "name": "Amazon",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.amazon.jobs"
+  },
+  {
+   "name": "Walmart",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.walmart.com"
+  },
+  {
+   "name": "Maersk",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.maersk.com/careers"
+  },
+  {
+   "name": "DHL Group",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.dhl.com"
+  },
+  {
+   "name": "FedEx",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://careers.fedex.com"
+  },
+  {
+   "name": "UPS",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.jobs-ups.com"
+  },
+  {
+   "name": "Accenture",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.accenture.com/us-en/careers"
+  },
+  {
+   "name": "McKinsey & Company",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.mckinsey.com/careers"
+  },
+  {
+   "name": "Deloitte",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.deloitte.com/global/en/careers.html"
+  },
+  {
+   "name": "SAP",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://jobs.sap.com"
+  },
+  {
+   "name": "Dassault Syst\u00e8mes",
+   "region": "Global",
+   "type": "html_watch",
+   "url": "https://www.3ds.com/careers"
+  },
+  {
+   "name": "Walton Hi-Tech Industries",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://waltonbd.com"
+  },
+  {
+   "name": "Beximco Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.beximco.com"
+  },
+  {
+   "name": "Square Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.squaregroup.com"
+  },
+  {
+   "name": "Square Pharmaceuticals",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.squarepharma.com.bd"
+  },
+  {
+   "name": "Beximco Pharmaceuticals",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.beximcopharma.com"
+  },
+  {
+   "name": "Incepta Pharmaceuticals",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.inceptapharma.com"
+  },
+  {
+   "name": "Renata Limited",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.renata-ltd.com"
+  },
+  {
+   "name": "PRAN-RFL Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.pranrflgroup.com"
+  },
+  {
+   "name": "Bashundhara Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bashundharagroup.com"
+  },
+  {
+   "name": "Akij Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.akijgroup.com"
+  },
+  {
+   "name": "Meghna Group of Industries",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.meghnagroup.com"
+  },
+  {
+   "name": "Abul Khair Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.abulkhairgroup.com"
+  },
+  {
+   "name": "City Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.citygroup.com.bd"
+  },
+  {
+   "name": "ACI Limited",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.aci-bd.com"
+  },
+  {
+   "name": "ACI Motors",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.acimotors.com"
+  },
+  {
+   "name": "Rahimafrooz",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.rahimafrooz.com"
+  },
+  {
+   "name": "Energypac",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.energypac.com"
+  },
+  {
+   "name": "Summit Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.summitpowerinternational.com"
+  },
+  {
+   "name": "United Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.unitedgroup.com.bd"
+  },
+  {
+   "name": "BSRM (Bangladesh Steel Re-Rolling Mills)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bsrm.com"
+  },
+  {
+   "name": "KSRM (Kabir Steel)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.ksrm.com"
+  },
+  {
+   "name": "GPH Ispat",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.gphispat.com"
+  },
+  {
+   "name": "Anwar Group (Anwar Ispat)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.anwargroup.com.bd"
+  },
+  {
+   "name": "Heidelberg Materials Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.heidelbergmaterials.com"
+  },
+  {
+   "name": "Holcim Bangladesh (LafargeHolcim)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.holcim.com"
+  },
+  {
+   "name": "Shah Cement",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.shahcement.com"
+  },
+  {
+   "name": "Premier Cement",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.premiercement.com"
+  },
+  {
+   "name": "Unilever Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.unilever.com.bd"
+  },
+  {
+   "name": "Nestl\u00e9 Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.nestle.com.bd"
+  },
+  {
+   "name": "British American Tobacco Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.batbangladesh.com"
+  },
+  {
+   "name": "Reckitt Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.reckitt.com"
+  },
+  {
+   "name": "Marico Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.marico.com"
+  },
+  {
+   "name": "Berger Paints Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bergerbd.com"
+  },
+  {
+   "name": "Asian Paints Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.asianpaints.com"
+  },
+  {
+   "name": "Olympic Industries",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.olympicbd.com"
+  },
+  {
+   "name": "Kazi Farms Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.kazifarms.com"
+  },
+  {
+   "name": "Transcom Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.transcombd.com"
+  },
+  {
+   "name": "Fresh (Meghna Group)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.freshbd.com"
+  },
+  {
+   "name": "DBL Group (Dulal Brothers)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.dbl-group.com"
+  },
+  {
+   "name": "Ha-Meem Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.hameemgroup.com"
+  },
+  {
+   "name": "Epyllion Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.epyllion.com"
+  },
+  {
+   "name": "Envoy Textiles",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.envoytex.com"
+  },
+  {
+   "name": "Ananta Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.anantagroup.com"
+  },
+  {
+   "name": "Nassa Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://nassagroup.com"
+  },
+  {
+   "name": "Pacific Jeans / Pacific Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.pacificjeans.com"
+  },
+  {
+   "name": "Viyellatex Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.viyellatex.com"
+  },
+  {
+   "name": "Fakir Apparels",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.fakirapparels.com"
+  },
+  {
+   "name": "Echotex",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.echotex.com"
+  },
+  {
+   "name": "Mohammadi Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.mohammadigroup.com"
+  },
+  {
+   "name": "Standard Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.standardgroupbd.com"
+  },
+  {
+   "name": "Aarong (BRAC Enterprises)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.aarong.com"
+  },
+  {
+   "name": "Grameenphone",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.grameenphone.com"
+  },
+  {
+   "name": "Robi Axiata",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.robi.com.bd"
+  },
+  {
+   "name": "bKash",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bkash.com"
+  },
+  {
+   "name": "Pathao",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://pathao.com"
+  },
+  {
+   "name": "Daraz Bangladesh",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.daraz.com.bd"
+  },
+  {
+   "name": "Steadfast Courier / RedX / Paperfly",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.paperfly.com.bd"
+  },
+  {
+   "name": "Navana Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.navana.com"
+  },
+  {
+   "name": "Nitol Niloy Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.nitolniloy.com"
+  },
+  {
+   "name": "Runner Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.runnerbd.com"
+  },
+  {
+   "name": "Rangs Group",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.rangsgroup.com"
+  },
+  {
+   "name": "Ifad Autos",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.ifad-autos.com"
+  },
+  {
+   "name": "Bangladesh Machine Tools Factory (BMTF)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bmtf.gov.bd"
+  },
+  {
+   "name": "Dockyard & Engineering Works / Chittagong Dry Dock",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.cdd.gov.bd"
+  },
+  {
+   "name": "Khulna Shipyard Ltd",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.khulnashipyard.com"
+  },
+  {
+   "name": "Western Marine Shipyard",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.westernmarine.com.bd"
+  },
+  {
+   "name": "Ananda Shipyard & Slipways",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.anandashipyard.com"
+  },
+  {
+   "name": "Bangladesh Power Development Board (BPDB)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bpdb.gov.bd"
+  },
+  {
+   "name": "Petrobangla / Titas / Jalalabad Gas",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.petrobangla.org.bd"
+  },
+  {
+   "name": "Bangladesh Petroleum Corporation (BPC)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bpc.gov.bd"
+  },
+  {
+   "name": "BCSIR",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bcsir.gov.bd"
+  },
+  {
+   "name": "BEPZA (EPZ companies)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bepza.gov.bd"
+  },
+  {
+   "name": "BSTI",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bsti.gov.bd"
+  },
+  {
+   "name": "Bangladesh Public Service Commission (BPSC)",
+   "region": "Bangladesh",
+   "type": "html_watch",
+   "url": "https://www.bpsc.gov.bd"
+  }
+ ]
+}
